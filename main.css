@@ -1,0 +1,173 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+h1 {
+    font-size: 24px;
+}
+h2 {
+    font-size: 18px;
+    padding: 20px 0;
+}
+h3 {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+/* HEADER */
+header p{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 14.63px;
+}
+
+/* ASIDE */
+.aside-icon{
+    width: 1.2em;
+}
+aside .row div:first-child .aside-icon{
+    filter: invert(69%) sepia(69%) saturate(609%) hue-rotate(325deg) brightness(99%) contrast(92%);
+}
+aside p{
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 9.75px;
+    text-transform: uppercase;
+    color: #bdbdbd;
+    display: inline-block;
+    padding: 0 !important;
+    margin-bottom: 20px;
+}
+aside p span{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12.19px;
+    text-transform: none;
+    color: #333333;
+    display: block;
+}
+aside p:first-of-type span{
+    color: #F2994A;
+}
+
+aside .aside-container{
+    padding: 0;
+}
+
+/* MAIN */
+
+main span{
+    font-weight: 700;
+}
+
+/* Ingredients */
+.ingredients ul{
+    list-style: none;
+    padding: 0 12px;
+}
+.ingredients ul li{
+    position: relative;
+    left: -0.3rem;
+    margin-bottom: 1rem;
+}
+.ingredients ul li:last-child span{
+    font-weight: 500;
+    font-style: italic;
+}
+
+input[type=checkbox]
+{
+  transform: scale(1.5);
+}
+
+/* Instructions */
+.instructions {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+ol {
+    counter-reset: my-awesome-counter;
+    list-style: none;
+    padding-left: 45px;
+}
+ol li {
+margin: 0 0 0.5rem 0;
+counter-increment: my-awesome-counter;
+position: relative;
+}
+ol li::before {
+content: counter(my-awesome-counter);
+color: #fff;
+font-family: 'Playfair Display', serif;
+font-weight: 700;
+font-size: 20px;
+font-weight: bold;
+position: absolute;
+--size: 30px;
+left: calc(-1 * var(--size) - 10px);
+line-height: var(--size);
+width: var(--size);
+height: var(--size);
+top: 0;
+background: #F2994A;
+border-radius: 6px;
+text-align: center;
+padding-bottom: calc(var(--size) + 5px);
+}
+
+/* Footer */
+footer{
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+    color: #828282;
+}
+footer p a {
+    font-weight: 700;
+    color: #828282;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+
+    /* HEADER */
+    header p{
+        font-size: 14px;
+        max-width: 592px;
+    }
+
+    /* ASIDE */
+    aside .aside-container{
+        width: 216px;
+        padding: 20px 60px;
+        border-radius: 12px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    /* MAIN */
+    /* Ingredients */
+    .ingredients ul li{
+        position: relative;
+        left: -0.5rem;
+    }
+}
