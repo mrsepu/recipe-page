@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Recipe page}</h1>
+<h1 align="center">Recipe page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -38,8 +38,6 @@
 ## Overview
 
 ![screenshot-mrsepu-github-io-recipe-page-1616256593520](https://user-images.githubusercontent.com/64711777/111876549-9d68c480-8975-11eb-920c-94a67cbf6444.png)
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 ### Built With
 
@@ -83,4 +81,4 @@ $ npm start
 
 ## Contact
 
-- GitHub [@ymrsepu](https://github.com/mrsepu/)
+- GitHub [@mrsepu](https://github.com/mrsepu/)
